@@ -1,4 +1,4 @@
-from automatic_prompt_engineer import llm, data, evaluate
+import llm, data, evaluate
 import numpy as np
 
 special_output_token = '[[[[OUTPUT]]]]'

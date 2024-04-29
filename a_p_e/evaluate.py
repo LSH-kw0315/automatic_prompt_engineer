@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 
-from automatic_prompt_engineer import llm
+#from automatic_prompt_engineer 
+import llm
 
 
 
@@ -15,10 +16,10 @@ def get_eval_method(eval_method):
     if callable(eval_method):
         return eval_method
     if eval_method == 'likelihood':
-        from automatic_prompt_engineer.evaluation import likelihood
+        from evaluation import likelihood
         return likelihood.likelihood_evaluator
     elif eval_method == 'bandits':
-        from automatic_prompt_engineer.evaluation import bandits
+        from evaluation import bandits
         return bandits.bandits_evaluator
     else:
         raise ValueError('Invalid evaluation method.')

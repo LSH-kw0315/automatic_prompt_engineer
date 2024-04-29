@@ -3,10 +3,10 @@ generation:
   num_demos: 5 # the number of demonstrations sent to the LLM for each unique query
   num_prompts_per_subsample: 50 # the number of prompts generated for each unique query
   model:
-    name: GPT_forward # the name of the model used for prompt generation
+    name: LLAMA_forward # the name of the model used for prompt generation
     batch_size: 500 # the maximum batch size used for prompt generation
     gpt_config: # the configuration of the GPT model used for prompt generation (these are fed directly to the openai function)
-      model: text-davinci-002
+      model: C:\Users\LSH\Desktop\Llama-2-7b-chat-hf-GGUF-Q4_K_M.gguf
       temperature: 0.9
       max_tokens: 50
       top_p: 0.9
@@ -24,10 +24,10 @@ evaluation:
     num_samples: 50 # a prompt is evaluated on this many samples (during each round of evaluation)
     num_few_shot: 5 # the number of samples used for few-shot evaluation (only used if [full_DEMO] is present in the eval_template)
     model:
-      name: GPT_forward
+      name: LLAMA_forward
       batch_size: 500
       gpt_config:
-        model: text-davinci-002
+        model: C:\Users\LSH\Desktop\Llama-2-7b-chat-hf-GGUF-Q4_K_M.gguf
         temperature: 0.7
         max_tokens: 200
         top_p: 1.0
@@ -35,10 +35,10 @@ evaluation:
         presence_penalty: 0.0
 demo:
   model:
-    name: GPT_forward
+    name: LLAMA_forward
     batch_size: 500
     gpt_config:
-      model: text-davinci-002
+      model: C:\Users\LSH\Desktop\Llama-2-7b-chat-hf-GGUF-Q4_K_M.gguf
       temperature: 0.7
       max_tokens: 200
       top_p: 1.0

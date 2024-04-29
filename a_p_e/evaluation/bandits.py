@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 
 import numpy as np
 
-from automatic_prompt_engineer import evaluate
+import evaluate
 
 
 def bandits_evaluator(prompts, eval_template, eval_data, demos_template, few_shot_data, config):

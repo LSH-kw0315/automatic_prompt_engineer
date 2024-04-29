@@ -2,12 +2,16 @@ import openai
 import numpy as np
 import pandas as pd
 import gradio as gr
+from llama_cpp import Llama
+import sys
+
+sys.path.append(r'C:\Users\LSH\Desktop\forked\a_p_e')
 
 from experiments.data.instruction_induction.load_data import load_data
-from automatic_prompt_engineer.ape import get_simple_prompt_gen_template
-from automatic_prompt_engineer import ape, evaluate, config, template, llm
+from a_p_e import ape, evaluate, config, template, llm
+from a_p_e.ape import get_simple_prompt_gen_template
 
-model_types = ['text-ada-001', 'text-babbage-001', 'text-curie-001', 'text-davinci-002']
+model_types = ['text-ada-001', 'text-babbage-001', 'text-curie-001', 'text-davinci-002','C:\\Users\\LSH\\Desktop\\Llama-2-7b-chat-hf-GGUF-Q4_K_M.gguf']
 mode_types = ['forward', 'insert']
 eval_types = ['likelihood', 'bandits']
 task_types = ['antonyms', 'cause_and_effect', 'common_concept', 'diff', 'first_word_letter',
@@ -326,8 +330,8 @@ def run_prompt(prompt, inputs,
 
 
 def get_demo():
-    assert openai.api_key is not None, 'Please set your OpenAI API key first.'
-    assert openai.api_key != '', 'Please set your OpenAI API key first.'
+    #assert openai.api_key is not None, 'Please set your OpenAI API key first.'
+    #assert openai.api_key != '', 'Please set your OpenAI API key first.'
 
     with gr.Blocks(title="Automatic Prompt Engineer", css=None, ) as demo:
         gr.Markdown("# Automatic Prompt Engineer")
@@ -349,7 +353,8 @@ def get_demo():
                                                    value="Instruction: [PROMPT]\nInput: [INPUT]\nOutput: [OUTPUT]",
                                                    label="Evaluation Template")
                     with gr.Row():
-                        basic_cost = gr.Textbox(lines=1, value="", label="Estimated Cost ($)", disabled=True)
+                        basic_cost = gr.Textbox(lines=1, value="", label="Estimated Cost ($)" 
+                                                ''', disabled=True''')
                         basic_cost_button = gr.Button("Estimate Cost")
                         basic_ape_button = gr.Button("APE")
 
@@ -362,7 +367,8 @@ def get_demo():
                                                     label="Demos Template")
 
                     with gr.Row():
-                        cost = gr.Textbox(lines=1, value="", label="Estimated Cost ($)", disabled=True)
+                        cost = gr.Textbox(lines=1, value="", label="Estimated Cost ($)"
+                                          ''', disabled=True''')
                         cost_button = gr.Button("Estimate Cost")
                         ape_button = gr.Button("APE")
 
@@ -418,11 +424,11 @@ def get_demo():
             with gr.Tab("Prompt Overview"):
                 with gr.Row():
                     generation_prompt_sample = gr.Textbox(lines=8, value="",
-                                                          label="Instruction Generation Prompts",
-                                                          disabled=True)
+                                                          label="Instruction Generation Prompts"
+                                                          ''',disabled=True''')
                     evaluation_prompt_sample = gr.Textbox(lines=8, value="",
-                                                          label="Evaluation Prompts",
-                                                          disabled=True)
+                                                          label="Evaluation Prompts"
+                                                          ''',disabled=True''')
 
             with gr.Tab("Prompt Deployment"):
                 with gr.Row():
@@ -442,7 +448,8 @@ def get_demo():
                                                   label="Prompt (Evaluate on scoring dataset using Evaluation Template)")
                         compute_score_button = gr.Button("Compute Score")
                     with gr.Column(scale=1):
-                        test_score = gr.Textbox(lines=1, value="", label="Log(p)", disabled=True)
+                        test_score = gr.Textbox(lines=1, value="", label="Log(p)"
+                                                ''', disabled=True''')
 
         ##############################
         # Button Callbacks

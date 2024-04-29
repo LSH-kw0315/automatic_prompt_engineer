@@ -25,10 +25,10 @@ def simple_config(eval_model, prompt_gen_model, prompt_gen_mode, num_prompts, ev
     conf = update_config({}, 'configs/bandits.yaml')
     conf['generation']['model']['gpt_config']['model'] = prompt_gen_model
     if prompt_gen_mode == 'insert':
-        conf['generation']['model']['name'] = 'GPT_insert'
+        conf['generation']['model']['name'] = 'LLAMA_insert'
         conf['generation']['model']['batch_size'] = 1
     elif prompt_gen_mode == 'forward':
-        conf['generation']['model']['name'] = 'GPT_forward'
+        conf['generation']['model']['name'] = 'LLAMA_forward'
         conf['generation']['model']['batch_size'] = prompt_gen_batch_size
     conf['generation']['num_subsamples'] = num_prompts // 10
     conf['generation']['num_prompts_per_subsample'] = 10

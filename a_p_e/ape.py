@@ -1,5 +1,6 @@
 import random
-from automatic_prompt_engineer import generate, evaluate, config, template, data, llm
+#from automatic_prompt_engineer 
+import generate, evaluate, config, template, data, llm
 
 
 def get_simple_prompt_gen_template(prompt_gen_template, prompt_gen_mode):
@@ -294,7 +295,7 @@ def get_evaluation_query(eval_template,
 
     if eval_query is None:
         if eval_base_method == 'likelihood':
-            from automatic_prompt_engineer.evaluation import likelihood
+            from evaluation import likelihood
             eval_query = likelihood.get_query
         else:
             raise ValueError(
