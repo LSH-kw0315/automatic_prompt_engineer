@@ -1,6 +1,8 @@
 from faulthandler import disable
+import sys
 #from automatic_prompt_engineer 
-import data, llm
+sys.path.append(r'C:\Users\LSH\Desktop\forked\a_p_e')
+from a_p_e import data, llm
 
 
 def get_query(prompt_gen_template, demos_template, subsampled_data):

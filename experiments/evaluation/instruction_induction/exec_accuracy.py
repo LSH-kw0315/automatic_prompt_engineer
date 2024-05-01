@@ -1,7 +1,11 @@
 import numpy as np
 
-from automatic_prompt_engineer import data, llm, evaluate
+#from automatic_prompt_engineer 
+import sys
 from experiments.evaluation.instruction_induction import utility
+sys.path.append(r'C:\Users\LSH\Desktop\forked\a_p_e')
+from a_p_e import data, llm, evaluate
+
 
 
 def get_query(prompt, eval_template, input_, output_, demo_data, demos_template):

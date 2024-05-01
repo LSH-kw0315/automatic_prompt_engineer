@@ -1,6 +1,9 @@
-from automatic_prompt_engineer import ape, data
-from experiments.data.TruthfulQA.load_data import load_data
-from experiments.evaluation.TruthfulQA.fine_tuned_gpt_eval import fine_tuned_gpt_evaluator
+import sys
+sys.path.append(r'C:\Users\LSH\Desktop\forked\a_p_e')
+#from automatic_prompt_engineer 
+from a_p_e import ape, data
+from data.TruthfulQA.load_data import load_data
+from evaluation.TruthfulQA.fine_tuned_gpt_eval import fine_tuned_gpt_evaluator
 
 
 def indented_print(s, indent=2):
@@ -34,7 +37,7 @@ def run():
             'num_demos': 5,
             'num_prompts_per_subsample': 10,
             'model': {
-                'name': 'GPT_insert',
+                'name': 'LLAMA_insert',
                 'batch_size': 1,
                 'gpt_config': {
                     # 'model': 'text-ada-001'

@@ -1,6 +1,9 @@
 import numpy as np
 
-from automatic_prompt_engineer import llm, data, evaluate
+#from automatic_prompt_engineer 
+import sys
+sys.path.append(r'C:\Users\LSH\Desktop\forked\a_p_e')
+from a_p_e import llm, data, evaluate
 
 model_names = {
     "judge": "curie:ft-uoft-ml-group-2022-09-26-01-07-30",

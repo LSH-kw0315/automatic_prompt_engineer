@@ -11,7 +11,7 @@ from experiments.data.instruction_induction.load_data import load_data
 from a_p_e import ape, evaluate, config, template, llm
 from a_p_e.ape import get_simple_prompt_gen_template
 
-model_types = ['text-ada-001', 'text-babbage-001', 'text-curie-001', 'text-davinci-002','C:\\Users\\LSH\\Desktop\\Llama-2-7b-chat-hf-GGUF-Q4_K_M.gguf']
+model_types = ['text-ada-001', 'text-babbage-001', 'text-curie-001', 'text-davinci-002','C:\\Users\\LSH\\Desktop\\Meta-Llama-3-8B-Instruct.Q4_K_M.gguf']
 mode_types = ['forward', 'insert']
 eval_types = ['likelihood', 'bandits']
 task_types = ['antonyms', 'cause_and_effect', 'common_concept', 'diff', 'first_word_letter',

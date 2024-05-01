@@ -1,10 +1,15 @@
 import random
 
 import fire
+import sys
+#from automatic_prompt_engineer 
 
-from automatic_prompt_engineer import ape, data
-from experiments.data.instruction_induction.load_data import load_data, tasks
-from experiments.evaluation.instruction_induction.exec_accuracy import exec_accuracy_evaluator
+sys.path.append(r'C:\Users\LSH\Desktop\forked\a_p_e')
+
+from a_p_e import ape, data
+
+from data.instruction_induction.load_data import load_data, tasks
+from evaluation.instruction_induction.exec_accuracy import exec_accuracy_evaluator
 
 sub_tasks = ['antonyms', 'cause_and_effect', 'common_concept', 'diff', 'first_word_letter',
              'informal_to_formal', 'larger_animal', 'letters_list', 'taxonomy_animal', 'negation', 'num_to_verbal',

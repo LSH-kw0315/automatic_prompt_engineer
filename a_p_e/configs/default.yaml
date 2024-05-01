@@ -6,9 +6,9 @@ generation:
     name: LLAMA_forward
     batch_size: 500
     gpt_config:
-      model: C:\Users\LSH\Desktop\Llama-2-7b-chat-hf-GGUF-Q4_K_M.gguf
+      model: C:\Users\LSH\Desktop\Meta-Llama-3-8B-Instruct.Q4_K_M.gguf
       temperature: 0.7
-      max_tokens: 200
+      max_tokens: 50
       top_p: 1.0
       frequency_penalty: 0.0
       presence_penalty: 0.0
@@ -21,9 +21,9 @@ evaluation:
     name: LLAMA_forward
     batch_size: 500
     gpt_config:
-      model: C:\Users\LSH\Desktop\Llama-2-7b-chat-hf-GGUF-Q4_K_M.gguf
+      model: C:\Users\LSH\Desktop\Meta-Llama-3-8B-Instruct.Q4_K_M.gguf
       temperature: 0.7
-      max_tokens: 200
+      max_tokens: 300
       top_p: 1.0
       frequency_penalty: 0.0
       presence_penalty: 0.0
@@ -33,9 +33,9 @@ demo:
     name: LLAMA_forward
     batch_size: 500
     gpt_config:
-      model: C:\Users\LSH\Desktop\Llama-2-7b-chat-hf-GGUF-Q4_K_M.gguf
+      model: C:\Users\LSH\Desktop\Meta-Llama-3-8B-Instruct.Q4_K_M.gguf
       temperature: 0.7
-      max_tokens: 200
+      max_tokens: 300
       top_p: 1.0
       frequency_penalty: 0.0
       presence_penalty: 0.0
