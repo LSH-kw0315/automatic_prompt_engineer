@@ -6,15 +6,15 @@ sys.path.append(r'C:\Users\LSH\Desktop\forked\a_p_e')
 from a_p_e import llm, data, evaluate
 
 model_names = {
-    "judge": "curie:ft-uoft-ml-group-2022-09-26-01-07-30",
-    "info": "curie:ft-uoft-ml-group-2022-09-27-13-35-15"
+    "judge": r"C:\Users\LSH\Desktop\Meta-Llama-3-8B-Instruct.Q4_K_M.gguf",
+    "info": r"C:\Users\LSH\Desktop\Meta-Llama-3-8B-Instruct.Q4_K_M.gguf"
 }
 
 model_config = {
-    "name": "GPT_forward",
+    "name": "LLAMA_forward",
     "batch_size": 20,
     "gpt_config": {
-        "model": 'filler',
+        "model": r'C:\Users\LSH\Desktop\Meta-Llama-3-8B-Instruct.Q4_K_M.gguf',
         "temperature": 0,
         "max_tokens": 1,
         "top_p": 1,

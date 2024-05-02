@@ -78,7 +78,7 @@ def run():
             indented_print(f'{score}: {prompt}')
 
         # Save the prompts and scores
-        with open(f'experiments/results/truthful_qa/{comb_name}.txt', 'w') as f:
+        with open(f'C:\\Users\\LSH\\Desktop\\forked\\experiments\\{comb_name}.txt', 'w') as f:
             for prompt, score in list(zip(prompts, scores)):
                 f.write(f'Score: {score:.2f}\nPrompt:{prompt}\n')
 

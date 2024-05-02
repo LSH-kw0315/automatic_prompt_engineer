@@ -117,7 +117,7 @@ def run(task):
     print(f'Test score: {test_score}')
 
     # Save a text file to experiments/results/instruction_induction/task.txt with the best prompt and test score
-    with open(f'experiments/results/instruction_induction/{task}.txt', 'w') as f:
+    with open(f'C:\\Users\\LSH\\Desktop\\forked\\experiments\\{task}.txt', 'w') as f:
         f.write(f'Test score: {test_score}\n')
         f.write(f'Prompt: {prompts[0]}\n')
 
