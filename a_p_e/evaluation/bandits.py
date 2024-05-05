@@ -3,8 +3,9 @@ from tqdm import tqdm
 from abc import ABC, abstractmethod
 
 import numpy as np
-
-import evaluate
+import sys
+sys.path.append(r'C:\Users\LSH\Desktop\forked\a_p_e')
+from a_p_e import evaluate
 
 
 def bandits_evaluator(prompts, eval_template, eval_data, demos_template, few_shot_data, config):

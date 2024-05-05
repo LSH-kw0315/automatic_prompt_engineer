@@ -1,0 +1,407 @@
+{
+    "metadata": {
+        "num_examples": 100
+    },
+    "examples": {
+        "1": {
+            "input": "Describe a specific goal related to exercising.",
+            "output": "My goal is to exercise at least 3 times a week for 30 minutes each session. I will track my progress by recording the date, duration, and type of exercise in a fitness journal. I will also aim to increase my workout intensity by increasing my reps and weights as I progress."
+        },
+        "2": {
+            "input": "Imagine a scenario where turtles and frogs live together. Describe the living environment of the two species.",
+            "output": "The turtles and frogs live in a lush and tropical habitat, surrounded by vibrant plants and colourful flowers. The lake is filled with crystal clear water and is full of multi-coloured fish that make their homes among the reeds and aquatic plants. The frogs and turtles are able to spend their days lounging on various stones and logs that are found in the lake."
+        },
+        "3": {
+            "input": "Re-write the sentence \" All that glitters is not gold \" in a different way",
+            "output": "Appearances can be deceiving - what glitters may not always be gold."
+        },
+        "4": {
+            "input": "Come up with a strategy for getting a better understanding of the customer base",
+            "output": "One strategy for getting a better understanding of the customer base is to conduct customer surveys. Surveys allow customers to provide information such as demographic data, purchasing preferences, and usage trends. Surveys can be conducted through a variety of mediums, including email, online surveys, in-person surveys, postcards, and phone calls. Additionally, companies can use customer feedback from online forums, reviews, and customer service channels to gain insights about their customers. Analyzing this data can provide valuable insights into customer preferences and help guide marketing and product decisions."
+        },
+        "5": {
+            "input": "Generate a few possible titles for an article that discusses the benefits of a plant-based diet.",
+            "output": "1. How a Plant-Based Diet Can Help You Live Healthier2. All the Benefits of Going Plant-Based3. The Incredible Advantages of Having a Plant-Based Diet"
+        },
+        "6": {
+            "input": "Name five factors that shape human behavior.",
+            "output": "Five factors that shape human behavior are biological factors such as genes and hormones, psychological factors like one's beliefs and perceptions, social/cultural factors like family and peer influences, situational factors like the environment and context, and cognitive factors like one's thoughts and ideas."
+        },
+        "7": {
+            "input": "Generate a sentence using the words \"happy\", \"cat\", and \"drove\".",
+            "output": "The happy cat drove around the neighborhood."
+        },
+        "8": {
+            "input": "Describe a way to save energy in an office.",
+            "output": "One way to save energy in an office is to turn off or unplug electronic equipment when it is not in use. This includes computers, printers, and photocopiers. Unplugging equipment can also help reduce energy costs by helping to prevent any power surges or damaging spikes in electricity. Additionally, offices can replace any old and inefficient light bulbs with energy-efficient LED or CFL bulbs. This may also require replacing any light dimmers or switches with energy-efficient ones. Lastly, offices should ensure HVAC systems are set to a comfortable level that is not too hot or cold."
+        },
+        "9": {
+            "input": "Describe an important historical event.",
+            "output": "The fall of the Berlin Wall in 1989 was an important event in European history, symbolizing the end of the Cold War and dividing two sides of Europe for decades. It marked a new era of European unification, as the wall crumbled and people on both sides of it claimed their freedom and began to integrate with one another."
+        },
+        "10": {
+            "input": "Arrange these words in alphabetical order: green, ink, orange.",
+            "output": "green, ink, orange; Alphabetically: green, ink, orange."
+        },
+        "11": {
+            "input": "Tell me three analogies that involve a tree",
+            "output": "1. Life is like a tree - it starts out small and grows into something strong and beautiful.2. Ideas are like trees - you need to water them and give them room to grow to see them blossom. 3. Knowledge is like a tree - the more you learn, the deeper the roots become."
+        },
+        "12": {
+            "input": "Describe the steps needed to set up a website.",
+            "output": "Setting up a website involves a number of steps. First, you need to pick a domain name and purchase hosting. Once the domain is registered and the hosting is purchased, you will need to connect the domain to the hosting so that the website can be accessed. Additionally, you will need to create and upload any content you want to appear on the website. Lastly, an SSL certificate should be obtained to protect visitors' data and ensure secure browsing. Once all of these steps have been completed, the website will be ready to launch."
+        },
+        "13": {
+            "input": "Describe the main components of a computer using 4 descriptive adjectives.",
+            "output": "Essential, complex, integrated, powerful."
+        },
+        "14": {
+            "input": "Describe the differences between an omnivore and a vegetarian diet.",
+            "output": "An omnivore diet consists of both plant and animal sources. This includes meat, fish, eggs, dairy, grains, fruits, and vegetables. A vegetarian diet consists of plant-based foods such as grains, fruits, legumes, nuts, and vegetables. Some vegetarians may also include dairy and eggs, while others may completely abstain from animal-based foods. Both of these diets offer a broad range of nutritional benefits and can be adapted to an individual's lifestyle, health goals, and cultural preferences."
+        },
+        "15": {
+            "input": "Provide an example of a situation in which the following phrase might be used: \"It's too little, too late.\"",
+            "output": "When a person has already made a decision and you attempt to convince them to reconsider, you might say, \"It's too little, too late.\""
+        },
+        "16": {
+            "input": "Create a list of 10 verbs related to cooking",
+            "output": "- Mix- Boil - Saute- Bake- Grate- Roast- Fry- Chop- Grill- Simmer"
+        },
+        "17": {
+            "input": "Create a HTML webpage about the benefits of virtual reality.",
+            "output": "<html><head>    <title>Benefits of Virtual Reality</title></head><body>    <h1>Benefits of Virtual Reality</h1>    <p>Virtual Reality (VR) offers a variety of benefits. From entertainment to education, VR provides an immersive experience that enhances user engagement and can lead to improved learning results. VR can also be used to improve communication, increase collaboration and make tasks easier to comprehend.</p>    <p>VR can also help to improve physical health. It can be used to reduce stress, improve coordination and posture, increase fitness levels, and even help with rehabilitation.</p>    <p>VR also has a variety of industrial applications. It can be used for training, product design and prototyping, engineering and simulation, virtual tours and more.</p></body></html>"
+        },
+        "18": {
+            "input": "Create a poem of 6 lines that describes how a bee feels in the spring.",
+            "output": "A bee in the springtime soarsThe warmth surrounding her in a forceIn the air smells of grace and joyColors of a rainbow, sparkling to employThe beauty of nature, so grandAs the bee lands into the pollen of the land."
+        },
+        "19": {
+            "input": "Describe a character who had once been successful but has since been in decline",
+            "output": "Once a successful entrepreneur, this character's life is now in gradual decline. They have seen the wealth, influence and power they used to enjoy slip away, and despite their best efforts, they can't seem to gain back the success they once had. They try to put on a brave face, but everyone can see that underneath their facade of optimism, they are overwhelmed by feelings of sadness and loss."
+        },
+        "20": {
+            "input": "Classify this sentence as either positive or negative.His efforts were in vain.",
+            "output": "Negative"
+        },
+        "21": {
+            "input": "Name two common sports indigienous to North America.",
+            "output": "Two common sports native to North America are lacrosse and ice hockey."
+        },
+        "22": {
+            "input": "Generate an action plan for getting in shape.",
+            "output": "1. Start with a healthy diet. Incorporate nutrient-rich foods, such as fresh fruits and vegetables, lean meats, and healthy fats.2. Begin an exercise routine. Start with a combination of cardiovascular exercise and strength training for best results.3. Set goals. Set long-term, achievable goals to keep you motivated and on track.4. Establish a support system. Reach out to family and friends and join a fitness community to stay motivated and get encouragement.5. Track your progress. Keep track of your diet, activity levels, and any changes in body composition with a journal or tracking app.6. Don\u2019t forget to rest. Allow yourself adequate rest both between workouts and during the week."
+        },
+        "23": {
+            "input": "Give an example of a problem that can benefit from artificial intelligence technology.",
+            "output": "One example of a problem that can benefit from artificial intelligence technology is medical diagnosis. AI has the potential to analyze medical images and help doctors identify diseases more quickly and accurately than human doctors, by accurately detecting and diagnosing abnormalities in medical images. AI can also be used to process large amounts of medical data and patient medical history, making it possible to identify patterns that might not be detectable by humans. AI can also be used to speed up administrative processes by automating routine tasks such as appointment scheduling."
+        },
+        "24": {
+            "input": "Describe the best approach to manage a conflict between two individuals.",
+            "output": "The best approach to managing a conflict between two individuals is by first listening and understanding each side's perspective. Reflect back to each person what you heard to ensure that it was accurately heard and understood. Then, each side should come up with a set of possible solutions and discuss their pros and cons. Finally, reach an agreement on the best course of action. This approach fosters collaboration and open communication, and encourages both sides to reach a resolution that is mutually beneficial."
+        },
+        "25": {
+            "input": "Come up with three questions for an AI-based virtual assistant with a health-related focus.",
+            "output": "1. What are the recommended exercises to improve my cardiovascular health? 2. What are the best ways to reduce stress levels? 3. How can I maintain a balanced and nutritious diet?"
+        },
+        "26": {
+            "input": "Generate a list of potential job requirements for a software engineer role.",
+            "output": "1. Bachelor's degree in computer science, software engineering, or related field2. Demonstrated experience in software development3. Proficiency with languages such as Java, C++, C#, Python, JavaScript, etc.4. In-depth knowledge of object-oriented design and development principles5. Understanding of database and information system architectures6. Ability to write intuitive, efficient code and algorithms7. Strong project and time management skills8. Excellent communication, collaboration, and problem-solving skills9. Knowledge of Agile development methodology10. Demonstrated ability to create and maintain automated tests for code11. Knowledge of cloud computing platforms, such as Amazon Web Services, Microsoft Azure, and Google Cloud"
+        },
+        "27": {
+            "input": "Describe a time when you had to take a big risk in order to get a desired outcome.",
+            "output": "When I first started my own business, I had to take a big risk to get the desired outcome. I had spent several months working hard to research the market and develop a product that could stand out from the competition. After spending months of hard work and dedication, I was ready to move forward with my idea. However, the risk I was considering meant investing a considerable amount of money up front. I was uncertain of the outcome due to the lack of security and reputation of my new business. But I ultimately took the risk and invested the money anyway. After a few months of hard work, my product was a success as it gained traction in the market; I had achieved my desired outcome."
+        },
+        "28": {
+            "input": "Explain what a software engineer does.",
+            "output": "A software engineer is someone who designs, develops, tests, and maintains software products. They use programming languages, algorithms, and code to create, debug, and optimize software applications to fulfil user requirements and maximize efficiency. They must also be able to develop prototypes, debug existing code, and solve problems."
+        },
+        "29": {
+            "input": "Provide an example of a classic romantic movie.",
+            "output": "One classic romantic movie is Casablanca (1942), starring Humphrey Bogart and Ingrid Bergman. Set in wartime Morocco, it tells the story of a couple whose love must survive politics, secrets, and a world at war."
+        },
+        "30": {
+            "input": "Create a conversation about July 4th.",
+            "output": "A: Hey, it's July 4th! What fun things did you do this weekend?B: I went to a great fireworks show near my house and had a cookout with family and friends. It was a blast! How about you?A: We had a great time at a local parade and grilled out. It was the perfect way to celebrate our independence!"
+        },
+        "31": {
+            "input": "Explain the difference between acute stress and chronic stress.",
+            "output": "Acute stress is an intense, short-term reaction to a stressful event. It is generally resolved once the threat passes or a person is able to successfully manage the event. Chronic stress, on the other hand, is a prolonged and constant strain that results from ongoing difficult life situations, such as poverty and homelessness, or daily annoyances like a high-pressure job. Chronic stress can accumulate over time and lead to physical and emotional exhaustion. It can also cause an array of physical and mental health problems if not managed in a healthy and timely manner."
+        },
+        "32": {
+            "input": "Describe an example of a special education teacher in a classroom.",
+            "output": "Mrs. Smith is a special education teacher in a large urban school. She works with her students to adapt the general classroom curriculum, while they are also learning self-regulation strategies and social skills. She runs a classroom with a positive reinforcement system to encourage her students to stay on-task while carefully differentiating the instruction to meet the needs of the individuals. Mrs. Smith has a firm yet compassionate approach and shows a deep understanding of her students' individual needs."
+        },
+        "33": {
+            "input": "Find two facts related to the team of scientists that discovered the neutron in 1932.",
+            "output": "1. The team of scientists that discovered the neutron in 1932 was led by James Chadwick. 2. The team included Rudolf Peierls, Mark Oliphant, and Patrick Blackett."
+        },
+        "34": {
+            "input": "Explain how to install and run a Docker container on a Linux server.",
+            "output": "To install and run a Docker container on a Linux server, first you need to install Docker on the server. To do this, you can use the command line utility or use the official Docker installation script. After the installation is complete, you can start the Docker daemon and pull your desired container. Once the container is downloaded and installed, you can then run it using the \u201cdocker run\u201d command. This will start a process inside the container and you can access it over your local network."
+        },
+        "35": {
+            "input": "What is the marketing funnel?",
+            "output": "The marketing funnel is a customer journey, starting with the moment a customer first interacts with a brand, then progressing through their journey until they become a paying customer. The funnel typically consists of four key stages, typically known as 'awareness', 'interest', 'consideration' and 'decision' stages. At each stage, different strategies and tactics are employed to engage customers, from content marketing and organic search, to social media marketing, email marketing and advertising."
+        },
+        "36": {
+            "input": "Please generate a procedure for assembling an ikea bookshelf.",
+            "output": "To assemble an IKEA bookshelf, you will need the following tools: a flathead screwdriver, a Phillips head screwdriver, a hammer, and a set of Allen keys.Steps:1. Carefully unpack the shelves and place each component on a flat surface.2. Start with the back panel. Place it horizontally, attaching the bracket pieces and screws according to the instructions.3. Assemble the side panels. Place them vertically, attaching the screws and washers to each one.4. Connect the top shelf to the side panels by slotting them in and fixing them with screws.5. Connect the lower shelves in the same manner, making sure they slot into the back panel brackets.6. Secure the remaining screws and washers.7. Finally, secure the remaining edges of the back panel in place with the hammer."
+        },
+        "37": {
+            "input": "Generate a few examples of digital content",
+            "output": "Examples of digital content include text, audio recordings, images, videos, animations, infographics, podcasts, digital books, blogs, slideshows, and interactive content."
+        },
+        "38": {
+            "input": "Describe the primary benefit of an AI-powered marketing platform.",
+            "output": "An AI-powered marketing platform can provide businesses with a powerful tool to automate, analyze, and optimize their campaigns. This enables businesses to save time, money, and resources by using AI to quickly identify trends, adjust their strategies, and target their customers more effectively."
+        },
+        "39": {
+            "input": "Describe the events in the Battle of Midway.",
+            "output": "The Battle of Midway was a major naval battle fought in the Pacific Ocean in June 1942 between the Imperial Japanese Navy and the United States navy. The battle began when Japanese forces attempted to capture Midway Island in order to use it as a base for further operations. U.S Navy forces, aided by a decoded Japanese plan, were able to inflict a heavy defeat on the Japanese forces, sinking four of their aircraft carriers, sinking a significant number of other ships, and damaging several more, while suffering only minor losses."
+        },
+        "40": {
+            "input": "Explain what the term \"infrastructure\" means from the perspective of public policy.",
+            "output": "Infrastructure from the perspective of public policy refers to the essential physical systems that enable a society to function. These systems include power plants and transmission grid, water and sewer systems, transportation networks, communication networks, and other public services such as healthcare, education and emergency services. Infrastructure is critical for economic and social development, and is necessary for economic vitality and quality of life."
+        },
+        "41": {
+            "input": "Create an outline for a presentation about the role of social media in modern society.",
+            "output": "I. Introduction II. Overview of social media platforms - Types of platforms - Popularity - Who uses themIII. Impact of social media - Positive effects - Negative effectsIV. Conclusion"
+        },
+        "42": {
+            "input": "Create a fictional creature and describe it in detail.",
+            "output": "The Jilfig is a small creature with a short body that resembles an oversized pigeon. It has large, round eyes that appear to be made of glass, and long, thick feathers that range in color from brown to black. It has a long beak that is used for both feeding and communication, as it is capable of making a wide range of both bird and humanlike sounds. Unlike normal birds, Jilfigs have wings which they use to hover in midair while they interact with one another. They typically congregate in groups of three or four and can often be found in parks or gardens, enjoying the warm air and watching the humans go by."
+        },
+        "43": {
+            "input": "Can you generate five questions about dinosaurs that can be used in a short quiz?",
+            "output": "1. What type of dinosaur was the largest?2. How long did the average dinosaur live?3. Is the Tyrannosaurus Rex considered a carnivore or an herbivore?4. When did the asteroid that killed the dinosaurs hit the Earth?5. What did Dinosaurs eat?"
+        },
+        "44": {
+            "input": "Rewrite the following sentence using third conditional: \"I would have gone to university if I had enough money.\"",
+            "output": "If I had had enough money, I would have gone to university."
+        },
+        "45": {
+            "input": "Summarize the advantages of online learning.",
+            "output": "Online learning has a range of benefits for both students and educators. It can provide a flexible option for students who may have scheduling or mobility needs, or for those who are balancing learning with other commitments. It can also help to reduce costs, as there is no need for a physical classroom. Online courses also provide an opportunity for international students to access the same high-quality educational resources regardless of geography. From an educator\u2019s perspective, online learning offers increased reach, efficiency and support. With a wide range of learning tools available, teachers can easily provide customized educational experiences to students, accommodating varying learning styles and providing detailed feedback."
+        },
+        "46": {
+            "input": "Generate a comprehensive plan to reduce the impact of climate change.",
+            "output": "A comprehensive plan to reduce the impact of climate change would include scaling up efforts to reduce greenhouse gas emissions, investing in renewable energy sources, and improving energy efficiency; supporting healthy ecosystems, such as forests and oceans, which act as carbon sinks; investing in adaptation strategies, such as infrastructure improvements and resilience-building; and making consumer lifestyle changes, such as switching to plant-based diets and reducing consumer waste."
+        },
+        "47": {
+            "input": "Print out the last three lines of the poem \"If\".",
+            "output": "And- which is more- you'll be a Man, my son!--Rudyard Kipling, \"If\""
+        },
+        "48": {
+            "input": "Come up with a simple explanation on how to use the boolean data type.",
+            "output": "Boolean data type is a data type that can have only two values: true or false. It is often used to express logic and is often used in programming logic and databases. For example, you could use boolean data type to check whether a user has entered in the correct password. If the user entered the wrong password, the boolean data type would return false; if the user entered the correct password, it would return true."
+        },
+        "49": {
+            "input": "Write a brief review of the following movie: The Devil Wears Prada",
+            "output": "The Devil Wears Prada is an entertaining, light-hearted comedy that follows the story of Andy Sachs as she navigates her way through the intimidating and often ridiculous corporate world of fashion. Starring Meryl Streep and Anne Hathaway, the movie follows Andy's journey as she starts off an inexperienced and naive intern and grows into a confident, competent professional. The movie follows the usual tropes of workplace comedies, but with a modern twist that makes it fresh and entertaining. It is a must-watch movie that will make you laugh while making you appreciate the power of hard work and perseverance."
+        },
+        "50": {
+            "input": "Select the synonym for \"tiny\".",
+            "output": "Miniscule."
+        },
+        "51": {
+            "input": "List five tropical fruits.",
+            "output": "Mangoes, pineapples, papayas, coconuts, dragon fruit."
+        },
+        "52": {
+            "input": "What does the expression 'prime the pump' mean?",
+            "output": "The expression \"prime the pump\" means to invest money or resources into something in order to stimulate or catalyze further activity in relation to it. It can also refer to stimulating economic activity through government spending."
+        },
+        "53": {
+            "input": "Design an icon associated with a new social media platform.",
+            "output": "The icon should be a circular shape with a sun-like image in the center. It should have bold, vibrant colors to give it an energized and modern feel. Additionally, the use of vibrant colors will provide an instantly recognizable symbol associated with the new social media platform."
+        },
+        "54": {
+            "input": "Generate a musical composition using a language model.",
+            "output": "The musical composition consists of a soft, mellow rhythm with a gentle melody underlying it. Layers of sound intertwine to create a dreamy, ethereal atmosphere. Instrumentation includes a piano, strings, and light percussion."
+        },
+        "55": {
+            "input": "Generate a new question related to the topic \"data science\" that has never been asked before.",
+            "output": "What are the creative ways data science can be incorporated into the entertainment industry?"
+        },
+        "56": {
+            "input": "Play a round of Rock-Paper-Scissors.",
+            "output": "Rock, paper, scissors, shoot! (Rock, Paper or Scissors are the input)"
+        },
+        "57": {
+            "input": "Provide an example of a deciduous tree native to the United States.",
+            "output": "One example of a deciduous tree native to the United States is the American Beech (Fagus grandifolia). It is found in the eastern United States and Canada, and grows to a height of 20 to 50 feet. The bark is smooth and gray, while the leaves are simple, oval-shaped, and have toothed margins."
+        },
+        "58": {
+            "input": "Name an example of a simulation based on A.I.",
+            "output": "An example of a simulation based on AI is AlphaGo, the computer program developed by Google DeepMind to play the traditional Chinese board game Go. The program utilizes machine-learning techniques such as deep neural networks to learn from collected data and generate moves based on probability."
+        },
+        "59": {
+            "input": "Imagine you're giving a presentation to a large group of people, create a catchy introduction for your presentation.",
+            "output": "Good morning everyone! Today, I'm excited to share with you the amazing opportunities and possibilities that can be unlocked when you think outside the box. Let's get started!"
+        },
+        "60": {
+            "input": "Can you name three Arabic countries?",
+            "output": "Three Arabic countries are Syria, Bahrain, and Egypt."
+        },
+        "61": {
+            "input": "Explain the concept of reusability in software development.",
+            "output": "Reusability in software development is the practice of utilizing software components from a library to build new applications. By reusing components, developers can save time and resources while creating reliable and efficient software. This concept has been around for decades, and today many developers rely on existing libraries to develop their projects quickly and effectively. Reusable components also reduce the risk of introducing errors into the software due to their reliability and ease of debugging."
+        },
+        "62": {
+            "input": "Name an animal that can live in cold climates.",
+            "output": "Polar bears are one of the few animal species that can survive in the cold climate of the Arctic regions."
+        },
+        "63": {
+            "input": "Can you please create a web page that includes a table of contact information for teachers?",
+            "output": "Yes, I can create a web page that includes a table of contact information for teachers. The table will include the teacher's name, email address, phone number, and office hours. The table can be sorted and filtered so it will be easy to find the contact information of a particular teacher. The web page will also include a search function so it will be easy to find the information that is needed. The web page will be responsive so it can be viewed on any device. It will also be optimized for SEO."
+        },
+        "64": {
+            "input": "Make an upvote/downvote system for a comment board",
+            "output": "The upvote/downvote system should allow users to upvote and downvote comments on a comment board. This can be implemented by adding a \"like\" and \"dislike\" button to each comment, allowing users to upvote or downvote it by clicking the respective buttons."
+        },
+        "65": {
+            "input": "Suggest a type of exercise for next week that will help me lose 5 pounds.",
+            "output": "High intensity interval training (HIIT) is a great type of exercise for losing 5 pounds in a week. It involves short bursts of vigorous exercise followed by short breaks. This type of exercise is not only effective for weight loss, it is also time-efficient as a full HIIT workout can be completed in about 30 minutes."
+        },
+        "66": {
+            "input": "Create a design for a new t-shirt.",
+            "output": "No output required"
+        },
+        "67": {
+            "input": "Hypothesize what the world will be like fifty years from now.",
+            "output": "In fifty years, the world will likely be much different than it is today. Advances in technology will have an immense impact on the way we live our lives, including the way we work, communicate, and learn. We can expect more efficient, environment-friendly methods of transportation, and perhaps even colonization of other planets. Automation and AI are likely to make life easier, with more time being devoted to leisure and lifestyle pursuits. Health will be improved due to advanced medical technology, and global awareness of sustainability, climate change, and other environmental issues is likely to have led to significant progress in protecting our planet."
+        },
+        "68": {
+            "input": "Describe a situation in which cryptography could be applied to ensure data security.",
+            "output": "Cryptography could be applied to ensure data security when data needs to be sent over the internet, for example when a file containing confidential information needs to be shared between two parties. In this situation, encryption protocols can be used to scramble the data so that only the original sender and receiver of the data can read it. This ensures that even if data is intercepted in transit, it will remain secure and inaccessible for anyone else."
+        },
+        "69": {
+            "input": "Write a poem that captures the idea of resilience and perseverance.",
+            "output": "Though the trials along the way seem dauntingAnd the path unclear and longI will never give up, for I know I'm strongI will face the storms, I will never waiverThroughout life's treacherous battle I am a brave fighterMy head held high, with courage and strengthNo matter the challenge, I will never bendFor the life I lead is one of true graceResilience and perseverance I proudly embrace."
+        },
+        "70": {
+            "input": "Provide a list of ten animals",
+            "output": "1. Cat 2. Dog3. Elephant4. Tiger5. Giraffe6. Zebra7. Lion8. Bear9. Wolf10. Monkey"
+        },
+        "71": {
+            "input": "Generate a crossword puzzle",
+            "output": "Across:1. Form of intelligence   __RTIFICIAL__4. Table for data __BLE__7. Automated tasks __ROBOTS__10. Learned behavior __HABIT__Down:2. Visual representation of __DATA__3. Problem solving techniques __LGOIRTHMS__5. Unstructured information __ETXRACT__6. Computable knowledge __LEDGE__8. Output of a machine __EPUT__9. Expert systems __XEPERT__"
+        },
+        "72": {
+            "input": "Suggest a new metaphor to describe someone being very fast.",
+            "output": "He was like a cheetah sprinting through the jungle."
+        },
+        "73": {
+            "input": "Classify the following dish as an appetizer or a main course: Fried shrimp.",
+            "output": "Fried shrimp is typically classified as an appetizer."
+        },
+        "74": {
+            "input": "How many paragraphs should a blog post typically have?",
+            "output": "A typical blog post should have between three and five paragraphs. A shorter post can get away with two, whereas a longer post might need more."
+        },
+        "75": {
+            "input": "Explain the ethical implications of building an AI-controlled healthcare system",
+            "output": "Building an AI-controlled healthcare system could bring both positive and negative ethics implications. On the positive side, AI-controlled healthcare systems could allow better access to healthcare and enable doctors to access data more quickly. On the negative side, AI-controlled healthcare systems can lead to the potential for healthcare data to be used inappropriately and AI algorithms to misdiagnose cases and make mistakes. There is also the potential that AI-controlled systems may lead to an increased use of automated procedures which could lead to fewer jobs in the healthcare industry. The ethical implications of this system will have to be taken into account to ensure that any AI-controlled healthcare system is as fair and safe as possible."
+        },
+        "76": {
+            "input": "Outline the steps needed to bake a cake.",
+            "output": "1. Preheat the oven to the desired temperature. 2. Cream together butter and sugar in a bowl until light and fluffy. 3. Beat in eggs one at a time. 4. Sift in the flour, baking powder and salt. 5. Mix in any desired flavors, such as vanilla extract or cocoa powder. 6. Grease and flour a cake pan. 7. Pour the batter into the cake pan.8. Bake for the desired time. 9. Let cool before adding frosting. 10. Serve and enjoy!"
+        },
+        "77": {
+            "input": "Come up with a story about a person discovering a lost civilization.",
+            "output": "It was a hot summer day when Jonathan stumbled across the mysterious ruins of a lost civilization. He had been exploring the area for weeks, but he had never seen anything like this before. Curious, he began to explore the ruins and soon noticed that the architecture and artifacts were drastically different from anything he had seen before. As he continued to search, he uncovered ancient texts that detailed the majestic history of this forgotten civilization, and he soon realized the importance of his discovery. Jonathan eagerly shared his findings with the world and soon became known as the greatest explorer of his time."
+        },
+        "78": {
+            "input": "Name five behaviors that are essential to promoting a respectful work environment.",
+            "output": "Five essential behaviors for promoting a respectful work environment include: 1. Treating everyone with respect and courteousness. 2. Not tolerating discrimination, harassment, or bullying. 3. Being open to feedback and criticism. 4. Listening and considering others\u2019 opinions. 5. Celebrating diversity and differences of opinion."
+        },
+        "79": {
+            "input": "What is the term used for a person who works in the marketing field?",
+            "output": "A person who works in the marketing field is known as a marketer."
+        },
+        "80": {
+            "input": "Write an essay that argues whether a belief in fate is a hindrance or a help.",
+            "output": "Belief in fate can be a double-edged sword. On the one hand, it serves as a source of comfort and assurance. People who believe in fate often have a greater sense of perspective and recognition that everything happens for a reason. This can help people cope with difficult problems that may arise in life, since believing in fate can give them a sense of peace and hope that they are in their current path for a reason. However, on the other hand, relying too much on faith and having too much confidence in fate can lead to passivity, as people can become too complacent and expect things to happen without any effort or action from themselves. This can be a hindrance in achieving goals, as it allows for a lack of responsibility and agency and leaves one in a vulnerable position.At the core of it, although a belief in fate offers comfort and assurance, too much reliance on it can be a hindrance in life. To strike a balance, one should not rely too much on fate, but still be guided by it and make sure to take responsibility for one\u2019s actions. Only then can one make the most of their circumstances and make the best of their life."
+        },
+        "81": {
+            "input": "Suggest 4 questions to ask an AI assistant.",
+            "output": "1. What's the weather like today? 2. What's the latest news? 3. What books would you recommend? 4. What are the best restaurants in the city?"
+        },
+        "82": {
+            "input": "Generate a creative title for a podcast episode.",
+            "output": "\"Letting Go To Find Direction: A Story Of Personal Reflection\""
+        },
+        "83": {
+            "input": "Why does a human need to breathe oxygen?",
+            "output": "A human needs to breathe oxygen because it is the primary source of energy for our cells. Oxygen enters the body and helps to convert the food we eat into energy, which is then used to power our bodies. Without oxygen, our cells wouldn't have the energy they need to function properly, and as a result, we wouldn't be able to survive."
+        },
+        "84": {
+            "input": "I want to buy a smartphone. What are the main features I should look for?",
+            "output": "When looking for a smartphone, some features you should consider include the size and weight of the device, the screen resolution and camera quality, processor speed and RAM, storage capacity and expandability, battery life and charging speed, operating system compatibility, and the range of available apps and services. Additionally, you should look for any specialized features that would improve your user experience, such as water and dust resistance, wireless charging, facial recognition, or special security and privacy features."
+        },
+        "85": {
+            "input": "Write the method for finding the area of a circle.",
+            "output": "def area_of_circle(radius):     \"\"\" Computes the area of a circle with given radius.           Args:         radius (float): The radius of the circle           Returns:         float: The calculated area of the circle     \"\"\"    area = 3.14 * (radius**2)     return area"
+        },
+        "86": {
+            "input": "Provide an example of a natural food preservative.",
+            "output": "Vinegar is a commonly used natural food preservative. It has antibacterial properties that can extend the shelf life of various foods, such as salad dressings."
+        },
+        "87": {
+            "input": "Create a research question about AI ethics",
+            "output": "What impact does AI have on ethical decision-making in organizations?"
+        },
+        "88": {
+            "input": "Come up with a name for a start up.",
+            "output": "BrewVision: A start-up that provides tailored business solutions to help companies succeed in their specific market."
+        },
+        "89": {
+            "input": "List 3 countries in Africa and their capital cities.",
+            "output": "1. Nigeria - Abuja2. Ethiopia - Addis Ababa3. South Africa - Pretoria"
+        },
+        "90": {
+            "input": "Come up with a sentence using the word \"meditation\".",
+            "output": "Meditation can help reduce stress and cultivate inner peace and joy."
+        },
+        "91": {
+            "input": "Develop 4 essential questions on the topic of legal regulation of AI.",
+            "output": "- What legal regulations should be implemented to ensure the safe use of AI?- How can legal regulations be effectively enforced to protect the public from potential harm caused by AI malfunctions?- Are existing laws adequate to address the ethical and security issues raised by AI?- How should legal regulation of AI be tailored to the different sectors in which AI technology is used?"
+        },
+        "92": {
+            "input": "Explain the impact of technology on education.",
+            "output": "Technology has had a massive impact on education. It has facilitated learning by allowing people to access an immense amount of knowledge online, providing students with an easier way to access course material, and enabling collaboration and communication between students, instructors, and peers through online tools. Technology also provides students with a more engaging and hands-on learning experience, which can lead to increased motivation and better understanding of the material."
+        },
+        "93": {
+            "input": "Generate an example of a programming language that involves using an object-oriented approach.",
+            "output": "Java is an example of a programming language that uses an object-oriented approach."
+        },
+        "94": {
+            "input": "Design a device that can process requests from natural language",
+            "output": "The device should consist of several components. First, a speech recognition system will convert audio from the user into text. Then, a natural language processing (NLP) system will analyze this text and determine its meaning. Once the intent is determined, the device can access a database of information or applications related to the request, analyze the data, and provide a response. Finally, a text-to-speech system will convert the response into an audio signal."
+        },
+        "95": {
+            "input": "Create a speech that explains why everyone should recycle.",
+            "output": "Good morning everyone. I'm here today to talk to you about why we should all be recycling. Recycling helps to protect our planet by reducing the amount of waste that is sent to our landfills. It also help conserve the materials that are already in our environment, like timber and metals. Additionally, recycling can help to create employment opportunities and contribute to our economy. And lastly, it can help to reduce our reliance on natural resources and reduce greenhouse gas emissions, which are contributing to global warming. In short, recycling helps protect our planet and its inhabitants. So let's do our part and make sure that we are all recycling to help preserve our planet for future generations. Thank you."
+        },
+        "96": {
+            "input": "Generate a sentence suitable for an adventure novel.",
+            "output": "The day was perfect for a daring escape, and there was no time to waste."
+        },
+        "97": {
+            "input": "Outline some ways to prepare a Catfish meal.",
+            "output": "1. Start by cleaning the Catfish; use a damp cloth to remove any dirt.2. Next cut the Catfish fillets into cubes and season with salt, pepper and any other herbs or spices of your choice.3. Heat oil in a skillet over medium high heat then add the Catfish cubes to the skillet and cook for 5-7 minutes4. In another pan, heat a mixture of butter, garlic and any other desired seasonings. 5. Once the Catfish cubes are done, transfer them to the pan with the butter mixture and cook for a further 3 minutes.6. Finally, serve the Catfish with any desired side dishes."
+        },
+        "98": {
+            "input": "Give an example of a closed-ended question.",
+            "output": "Do you believe in the importance of a good work-life balance?"
+        },
+        "99": {
+            "input": "Identify an age appropriate cartoon for children aged 4-6.",
+            "output": "Esme & Roy is a great age-appropriate cartoon for children aged 4-6. It follows two young monsters, Esme and Roy, who come to the rescue of their fellow monsters when they get into sticky predicaments. The series promotes problem-solving and collaboration, as well as caring and friendship. Plus, the animation and music are great fun!"
+        },
+        "100": {
+            "input": "Tell what fraction one third is equal to?",
+            "output": "One third is equal to 1/3."
+        }
+    }
+}

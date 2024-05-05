@@ -1,5 +1,8 @@
-import llm, data, evaluate
 import numpy as np
+import sys
+sys.path.append(r'C:\Users\LSH\Desktop\forked\a_p_e')
+from a_p_e import llm, data, evaluate
+
 
 special_output_token = '[[[[OUTPUT]]]]'
 

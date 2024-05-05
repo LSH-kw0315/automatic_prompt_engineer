@@ -11,7 +11,7 @@ from experiments.data.instruction_induction.load_data import load_data
 from a_p_e import ape, evaluate, config, template, llm
 from a_p_e.ape import get_simple_prompt_gen_template
 
-model_types = ['text-ada-001', 'text-babbage-001', 'text-curie-001', 'text-davinci-002','C:\\Users\\LSH\\Desktop\\Meta-Llama-3-8B-Instruct.Q4_K_M.gguf']
+model_types = ['text-ada-001', 'text-babbage-001', 'text-curie-001', 'text-davinci-002',r'C:\Users\LSH\Desktop\Llama-3-Open-Ko-8B-Instruct-preview-Q4_0.gguf']
 mode_types = ['forward', 'insert']
 eval_types = ['likelihood', 'bandits']
 task_types = ['antonyms', 'cause_and_effect', 'common_concept', 'diff', 'first_word_letter',
@@ -19,7 +19,7 @@ task_types = ['antonyms', 'cause_and_effect', 'common_concept', 'diff', 'first_w
               'active_to_passive', 'singular_to_plural', 'rhymes',
               'second_word_letter', 'sentence_similarity', 'sentiment', 'orthography_starts_with',
               'sum', 'synonyms', 'translation_en-de', 'translation_en-es',
-              'translation_en-fr', 'word_in_context']
+              'translation_en-fr', 'word_in_context','alpaca','empathetic']
 
 
 def load_task(task):

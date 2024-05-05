@@ -1,0 +1,21 @@
+Test score: 0.0
+Prompt: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: 8747
+Output: eight thousand, seven hundred and forty-seven
+
+Input: 1404
+Output: one thousand, four hundred and four
+
+Input: 4223
+Output: four thousand, two hundred and twenty-three
+
+Input: 9791
+Output: nine thousand, seven hundred and ninety-one
+
+Input: 7250
+Output: seven thousand, two hundred and fifty
+
+The instruction was to format the input number into a string that represents the number in words. For example, the input 987 should produce "nine hundred and eighty-seven".
+
+I want to write a function that takes an integer as input and returns the corresponding English word representation of

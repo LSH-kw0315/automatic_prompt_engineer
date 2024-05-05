@@ -1,0 +1,26 @@
+Score: 0.00
+Prompt:You are given the following instructions: 1. You must use the provided code as a base, without modifying it. 2. You may not change or add any of the existing variables. 3. The function should return a list that contains all the divisors for each number in
+Score: 0.00
+Prompt:You are given the following instructions: 1. Use a 5x5 grid, where each cell is initially set to 0.
+2. Start from the top left corner of the grid (i.e., cell [0][0]).
+3. For each cell in the grid,
+Score: 0.00
+Prompt:You are given the following instructions: 1. Start in the first row and first column of the grid, which is marked as "(0,0)". 2. In each step, you can move either diagonally down or horizontally right to an adjacent cell if it is within the grid
+Score: 0.00
+Prompt:You are given the following instructions: 1. Select any two different integers from set S (the original set). 2. Subtract one integer from the other. 3. If you get a result of zero, go back to step 1 and choose another pair of integers from set
+Score: 0.00
+Prompt:You are given the following instructions: 1. Read through this guide carefully and understand it fully before attempting to set up your new smartphone.
+2. The phone comes with a SIM card, which needs to be activated in order for you to make calls and send texts. You will need to
+Score: 0.00
+Prompt:You are given the following instructions: 1) Start with your current position. 2) Move in the direction of the arrow. 3) Once you have reached a wall, move in the next direction indicated by the arrow.
+
+Note that this is a simulation-based problem. Therefore,
+Score: 0.00
+Prompt:You are given the following instructions: 1) Read your message carefully and make sure you understand what is being asked. 2) Write your response in a clear, concise, and respectful manner. 3) Provide specific examples or supporting evidence when possible. 4) Keep your responses
+Score: 0.00
+Prompt:You are given the following instructions: 1) Read the text carefully. 2) Do not copy and paste, write your own thoughts. 3) Write in complete sentences.
+The article discusses the benefits of a good night's sleep for our bodies. It emphasizes that getting enough sleep
+Score: 0.00
+Prompt:You are given the following instructions: 1) Calculate the mean of each set of 5 consecutive numbers. 2) For each set of mean values, find the average (arithmetic mean) of these means.
+
+The result is the arithmetic mean of all the numbers in the sequence.

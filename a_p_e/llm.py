@@ -467,7 +467,7 @@ class LLAMA_Forward(LLM):
         for i in range(len(prompt)):
             prompt[i] = prompt[i].replace('[APE]', '').strip()
         response = None
-        
+        print(f"prompt:{prompt}")
         
         # output_parser=StrOutputParser()
         # template = """
@@ -483,24 +483,28 @@ class LLAMA_Forward(LLM):
         #                 )
         # llm_chain = LLMChain(prompt=arg_prompt,llm=llm,output_parser=output_parser)
         
-        llm = Llama(model_path=config["model"],logits_all=True)
+        llm = Llama(model_path=config["model"],logits_all=True,n_ctx=2048)
         #output = llm.create_completion(chatting, max_tokens=, , echo=True,logprobs=5)
         
         #print(prompt)
         while response is None:
-            #try:        
+            try:        
                 #response = llm_chain.invoke(prompt)
-            response=llm.create_completion(prompt=prompt[0], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
-            for i in range(1,len(prompt)):
-                answer=llm.create_completion(prompt=prompt[i], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
-                response['choices'].extend(answer['choices'])
-                
-            # except Exception as e:
-            #     if 'is greater than the maximum' in str(e):
-            #         raise BatchSizeException()
-            #     print(e)
-            #     print('generating Retrying...')
-            #     time.sleep(5)
+            #response=llm.create_completion(prompt=prompt[0], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
+                response=llm(prompt=prompt[0], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=3)
+            
+                for i in range(1,len(prompt)):
+                    #answer=llm.create_completion(prompt=prompt[i], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
+                    answer=llm(prompt=prompt[i], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=3)
+                    response['choices'].extend(answer['choices'])
+            
+                print(f"what is generated: {response['choices']}")    
+            except Exception as e:
+                 if 'is greater than the maximum' in str(e):
+                     raise BatchSizeException()
+                 print(e)
+                 print('generating Retrying...')
+                 time.sleep(5)
 
 
         return [response['choices'][i]['text'] for i in range(len(response['choices']))]
@@ -515,6 +519,7 @@ class LLAMA_Forward(LLM):
         # If there are any [APE] tokens in the prompts, remove them
         for i in range(len(prompt)):
             prompt[i] = prompt[i].replace('[APE]', '').strip()
+            #prompt[i] += "\n\n==============\nYou just print what instruction is."
         response = None
         
         # output_parser=StrOutputParser()
@@ -531,14 +536,18 @@ class LLAMA_Forward(LLM):
         #                 )
         # llm_chain = LLMChain(prompt=arg_prompt,llm=llm,output_parser=output_parser)
         
-        llm = Llama(model_path=config["model"],logits_all=True)
+        llm = Llama(model_path=config["model"],logits_all=True,n_ctx=2048)
         
         while response is None:
             try:
                 #response = llm_chain.invoke(prompt)
-                response=llm.create_completion(prompt=prompt[0], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
+                #response=llm.create_completion(prompt=prompt[0], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
+                
+                response=llm(prompt=prompt[0], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
                 for i in range(1,len(prompt)):
-                    answer=llm.create_completion(prompt=prompt[i], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
+                    #answer=llm.create_completion(prompt=prompt[i], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
+                    
+                    answer=llm(prompt=prompt[i], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
                     response['choices'].extend(answer['choices'])
             except Exception as e:
                 print(e)
@@ -578,14 +587,16 @@ class LLAMA_Forward(LLM):
         #                       "top_p": 1}
         #                 )
         # llm_chain = LLMChain(prompt=arg_prompt,llm=llm,output_parser=output_parser)
-        llm = Llama(model_path=config["model"],logits_all=True)
+        llm = Llama(model_path=config["model"],logits_all=True,n_ctx=2048)
         
         while response is None:
             try:
                 #response = llm_chain.invoke(text)
-                response=llm.create_completion(prompt=text[0], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
+                #response=llm.create_completion(prompt=text[0], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
+                response=llm(prompt=text[0], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
                 for i in range(1,len(text)):
-                    answer=llm.create_completion(prompt=text[i], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
+                    #answer=llm.create_completion(prompt=text[i], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=2)
+                    answer=llm(prompt=text[i], max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1)
                     response['choices'].extend(answer['choices'])
             except Exception as e:
                 print(e)
@@ -696,7 +707,7 @@ class LLAMA_Insert(LLM):
             try:
                 # response = openai.Completion.create(
                 #     **config, prompt=prefix, suffix=suffix)
-                response=llm.create_completion(prompt=prefix, max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=5,suffix=suffix)
+                response=llm.create_completion(prompt=prefix, max_tokens=config["max_tokens"] , top_p=config['top_p'],frequency_penalty=config['frequency_penalty'],presence_penalty=config['presence_penalty'],temperature=config['temperature'],echo=True,logprobs=1,suffix=suffix)
             except Exception as e:
                 print(e)
                 print('Retrying...')
